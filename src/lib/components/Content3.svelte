@@ -7,7 +7,7 @@
 
 			<div class="md:col-span-4">
 				<blockquote class="mt-6">
-					<p class="text-4xl font-normal text-white">
+					<p class="text-2xl font-normal text-white lg:text-4xl">
 						“The 2024 State Budget is formulated to address present and future challenges, so the
 						2024 State Budget is directed at <span
 							class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-amber-400"

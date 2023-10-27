@@ -1,4 +1,4 @@
-<footer class="relative overflow-hidden bg-gray-900 py-36">
+<footer class="relative py-16 overflow-hidden bg-gray-900 lg:py-36">
 	<div class="absolute bottom-0 left-0 transform -translate-x-12 translate-y-80 lg:translate-x-0">
 		<svg
 			class="opacity-60 blur-3xl filter"
