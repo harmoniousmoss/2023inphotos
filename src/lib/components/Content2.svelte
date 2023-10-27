@@ -1,10 +1,22 @@
+<script lang="ts">
+	import AOS from 'aos';
+	import 'aos/dist/aos.css';
+	import { onMount } from 'svelte';
+
+	// Initialize AOS after the component has been mounted
+	onMount(() => {
+		AOS.init();
+	});
+</script>
+
 <section class="py-20 sm:py-24 lg:py-28 bg-gradient-to-b from-gray-50 to-white">
 	<div class="px-4 mx-auto overflow-auto max-w-7xl sm:px-6 lg:px-8">
 		<div class="grid grid-cols-1 gap-8 lg:grid-cols-4">
 			<!-- First Section -->
 			<div class="relative mt-2 lg:col-span-1">
 				<div class="relative flex justify-start">
-					<span class="text-xl text-gray-900 lg:text-base">
+					<!-- Fixed the closing quote here -->
+					<span class="text-xl text-gray-900 lg:text-base" data-aos="fade-up">
 						Lower commodity prices, particularly for coal, have decreased natural resource related
 						non-tax revenues, such as mining royalties.
 					</span>
@@ -12,7 +24,7 @@
 			</div>
 
 			<!-- Second section -->
-			<div class="mt-2 lg:col-span-3">
+			<div class="mt-2 lg:col-span-3" data-aos="fade-up" data-aos-delay="300">
 				<iframe
 					title="Non-tax revenues drop as commodity prices moderate"
 					aria-label="Table"
@@ -23,7 +35,9 @@
 					style="width: 0; min-width: 100% !important; border: none;"
 					height="447"
 					data-external="1"
-				/><script type="text/javascript">
+				/>
+
+				<script type="text/javascript">
 					!(function () {
 						'use strict';
 						window.addEventListener('message', function (a) {

@@ -1,4 +1,14 @@
 <script lang="ts">
+	import AOS from 'aos';
+	import 'aos/dist/aos.css';
+
+	// Initialize AOS after the component has been mounted
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		AOS.init();
+	});
+
 	// Explicitly defining the type of contentRef
 	export let contentRef: HTMLElement | null;
 </script>
@@ -12,7 +22,7 @@
 			<!-- First Section -->
 			<div class="relative mt-2 lg:col-span-1">
 				<div class="relative flex justify-start">
-					<span class="text-xl text-gray-900 lg:text-base">
+					<span class="text-xl text-gray-900 lg:text-base" data-aos="fade-up">
 						State revenues are projected to dip slightly as a percentage of GDP and this will be
 						counterbalanced by proportionate cuts to expenditure, with the deficit steady at 2.3%.
 					</span>
@@ -20,7 +30,7 @@
 			</div>
 
 			<!-- Second section -->
-			<div class="mt-2 lg:col-span-3">
+			<div class="mt-2 lg:col-span-3" data-aos="fade-up" data-aos-delay="300">
 				<iframe
 					title="A stability budget for uncertain times"
 					aria-label="Interactive line chart"

@@ -1,5 +1,14 @@
 <script lang="ts">
-	// Explicitly defining the type of contentRef
+	import AOS from 'aos';
+	import 'aos/dist/aos.css';
+
+	// Initialize AOS after the component has been mounted
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		AOS.init();
+	});
+
 	export let contentRef: HTMLElement | null;
 </script>
 
@@ -36,15 +45,22 @@
 			<div class="mx-auto text-center">
 				<h1
 					class="text-5xl font-semibold text-transparent xl:text-7xl sm:tracking-tight bg-clip-text bg-gradient-to-r from-cyan-500 to-amber-400"
+					data-aos="fade-up"
 				>
 					Visualised: The proposed state budget for 2024
 				</h1>
-				<p class="mt-6 text-lg leading-7 text-white lg:leading-8 lg:text-xl">
+
+				<p
+					class="mt-6 text-lg leading-7 text-white lg:leading-8 lg:text-xl"
+					data-aos="fade-up"
+					data-aos-delay="300"
+				>
 					This month we look at some interesting facets of Indonesia’s proposed state budget for
 					2024 – a tight that promotes stability amid global and domestic uncertainty and targets
 					inclusion and sustainability as Indonesia moves towards economic transformation.
 				</p>
-				<div class="mt-8">
+
+				<div class="mt-8" data-aos="fade-up" data-aos-delay="500">
 					<a
 						href="/"
 						title=""
@@ -52,7 +68,6 @@
 						role="button"
 						on:click|preventDefault={() => {
 							if (contentRef) {
-								// Adding a null check here
 								contentRef.scrollIntoView({ behavior: 'smooth' });
 							}
 						}}
@@ -62,7 +77,7 @@
 				</div>
 			</div>
 
-			<div class="relative mt-12 sm:mt-16 lg:mt-20">
+			<div class="relative mt-12 sm:mt-16 lg:mt-20" data-aos="fade-up" data-aos-delay="800">
 				<img class="rounded-xl" src="/discussion.png" alt="Indonesia illustration" />
 			</div>
 		</div>

@@ -1,10 +1,21 @@
+<script lang="ts">
+	import AOS from 'aos';
+	import 'aos/dist/aos.css';
+	import { onMount } from 'svelte';
+
+	// Initialize AOS after the component has been mounted
+	onMount(() => {
+		AOS.init();
+	});
+</script>
+
 <section class="py-20 sm:py-24 lg:py-28 bg-gradient-to-b from-gray-50 to-white">
 	<div class="px-4 mx-auto overflow-auto max-w-7xl sm:px-6 lg:px-8">
 		<div class="grid grid-cols-1 gap-8 lg:grid-cols-4">
 			<!-- First Section -->
 			<div class="relative mt-2 lg:col-span-1">
 				<div class="relative flex justify-start">
-					<span class="text-xl text-gray-900 lg:text-base">
+					<span class="text-xl text-gray-900 lg:text-base" data-aos="fade-up">
 						While real spending will decrease, the state budget will target spending in areas that
 						boost inclusion, like infrastructure, education, health, food security and social
 						protection.
@@ -13,7 +24,7 @@
 			</div>
 
 			<!-- Second section -->
-			<div class="mt-2 lg:col-span-3">
+			<div class="mt-2 lg:col-span-3" data-aos="fade-up" data-aos-delay="300">
 				<iframe
 					title="Spending priorities targeting inclusion and human capital"
 					aria-label="Split Bars"

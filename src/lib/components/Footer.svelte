@@ -1,3 +1,14 @@
+<script lang="ts">
+	import AOS from 'aos';
+	import 'aos/dist/aos.css';
+	import { onMount } from 'svelte';
+
+	// Initialize AOS after the component has been mounted
+	onMount(() => {
+		AOS.init();
+	});
+</script>
+
 <footer class="relative py-16 overflow-hidden bg-gray-900 lg:py-36">
 	<div class="absolute bottom-0 left-0 transform -translate-x-12 translate-y-80 lg:translate-x-0">
 		<svg
@@ -42,17 +53,18 @@
 				<a href="/" title="" class="">
 					<img
 						class="w-auto h-14"
+						data-aos="fade-up"
 						src="https://newsletter.prospera.or.id/poverty-update/assets/img/logo_prospera.png"
 						alt="Logo Prospera"
 					/>
 				</a>
-				<p class="text-base font-semibold text-white my-7">
+				<p class="text-base font-semibold text-white my-7" data-aos="fade-up" data-aos-delay="300">
 					Prospera is supported by the Australian Government and implemented by DT Global.
 				</p>
 			</div>
 
 			<div class="overflow-hidden lg:-ml-12 lg:-my-8 bg-base-900 rounded-xl xl:col-span-4">
-				<div class="p-8 sm:p-12">
+				<div class="p-8 sm:p-12" data-aos="fade-up" data-aos-delay="500">
 					<div class="grid grid-cols-2 gap-y-12 sm:grid-cols-3 gap-x-12 xl:gap-x-16">
 						<div>
 							<h6 class="text-base font-semibold text-white">About Prospera</h6>
