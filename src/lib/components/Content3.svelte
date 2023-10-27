@@ -36,7 +36,7 @@
 				<div class="mt-8 sm:flex sm:items-center sm:justify-between">
 					<div class="flex-1" data-aos="fade-up" data-aos-delay="700">
 						<p class="text-xl font-normal text-white">Joko Widodo</p>
-						<p class="mt-1 text-sm font-normal text-gray-400">president of Indonesia</p>
+						<p class="mt-1 text-sm font-normal text-gray-400">President of Indonesia</p>
 					</div>
 				</div>
 			</div>

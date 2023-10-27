@@ -56,8 +56,8 @@
 					data-aos-delay="300"
 				>
 					This month we look at some interesting facets of Indonesia’s proposed state budget for
-					2024 – a tight that promotes stability amid global and domestic uncertainty and targets
-					inclusion and sustainability as Indonesia moves towards economic transformation.
+					2024 – a tight budget that promotes stability amid global and domestic uncertainty and
+					targets inclusion and sustainability as Indonesia moves towards economic transformation.
 				</p>
 
 				<div class="mt-8" data-aos="fade-up" data-aos-delay="500">
