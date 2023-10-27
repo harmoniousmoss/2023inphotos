@@ -1,44 +1,29 @@
-<section class="py-20 sm:py-24 lg:py-28 bg-gradient-to-b from-gray-50 to-white">
-	<div class="px-4 mx-auto overflow-auto max-w-7xl sm:px-6 lg:px-8">
-		<div class="grid grid-cols-1 gap-8 lg:grid-cols-4">
-			<!-- First Section -->
-			<div class="relative mt-2 lg:col-span-1">
-				<div class="relative flex justify-start">
-					<span class="text-xl text-gray-900 lg:text-base">
-						State revenues are projected to dip slightly as a percentage of GDP and this will be
-						counterbalanced by proportionate cuts to expenditure, with the deficit steady at 2.3%.
-					</span>
-				</div>
+<section class="py-24 bg-gray-900">
+	<div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+		<div class="grid items-center grid-cols-1 gap-y-12 md:grid-cols-7 md:gap-x-12 lg:gap-x-24">
+			<div class="md:col-span-3">
+				<img class="object-cover w-full rounded-md" src="/jokowi.jpeg" alt="Joko Widodo Photos" />
 			</div>
 
-			<!-- Second section -->
-			<div class="mt-2 lg:col-span-3">
-				<iframe
-					title="A stability budget for uncertain times"
-					aria-label="Interactive line chart"
-					id="datawrapper-chart-7P3wt"
-					src="https://datawrapper.dwcdn.net/7P3wt/1/"
-					scrolling="no"
-					frameborder="0"
-					style="width: 0; min-width: 100% !important; border: none;"
-					height="400"
-					data-external="1"
-				/><script type="text/javascript">
-					!(function () {
-						'use strict';
-						window.addEventListener('message', function (a) {
-							if (void 0 !== a.data['datawrapper-height']) {
-								var e = document.querySelectorAll('iframe');
-								for (var t in a.data['datawrapper-height'])
-									for (var r = 0; r < e.length; r++)
-										if (e[r].contentWindow === a.source) {
-											var i = a.data['datawrapper-height'][t] + 'px';
-											e[r].style.height = i;
-										}
-							}
-						});
-					})();
-				</script>
+			<div class="md:col-span-4">
+				<blockquote class="mt-6">
+					<p class="text-4xl font-normal text-white">
+						“The 2024 State Budget is formulated to address present and future challenges, so the
+						2024 State Budget is directed at <span
+							class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-500"
+							>accelerating inclusive and sustainable economic transformation</span
+						>.”
+					</p>
+				</blockquote>
+
+				<hr class="mt-10 border-gray-800" />
+
+				<div class="mt-8 sm:flex sm:items-center sm:justify-between">
+					<div class="flex-1">
+						<p class="text-xl font-normal text-white">Joko Widodo</p>
+						<p class="mt-1 text-sm font-normal text-gray-400">president of Indonesia</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
