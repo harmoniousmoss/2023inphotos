@@ -9,7 +9,7 @@
 	});
 </script>
 
-<section class="py-24 bg-gray-900">
+<section class="flex items-center justify-center h-screen py-24 bg-gray-900">
 	<div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
 		<div class="grid items-center grid-cols-1 gap-y-12 md:grid-cols-7 md:gap-x-12 lg:gap-x-24">
 			<div class="md:col-span-3" data-aos="fade-up">
