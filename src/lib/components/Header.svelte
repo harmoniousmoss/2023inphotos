@@ -1,9 +1,19 @@
-<script>
-	let expanded = false;
+<script lang="ts">
+	import { onMount } from 'svelte';
+	import { animate, scroll } from 'motion';
 
-	function toggleMenu() {
-		expanded = !expanded;
-	}
+	// Explicitly defining the type of contentRef
+	export let contentRef: HTMLElement | null;
+
+	onMount(() => {
+		const headerSections = document.querySelectorAll('section > div > div');
+		headerSections.forEach((section) => {
+			scroll(animate(section, { opacity: [0, 1, 1, 0] }), {
+				target: section,
+				offset: ['start end', 'end end', 'start start', 'end start']
+			});
+		});
+	});
 </script>
 
 <div>
@@ -53,6 +63,12 @@
 						title=""
 						class="inline-flex items-center justify-center px-8 py-2 text-base font-medium text-white transition-all duration-200 border border-transparent rounded-full shadow-sm bg-cyan-500 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500"
 						role="button"
+						on:click|preventDefault={() => {
+							if (contentRef) {
+								// Adding a null check here
+								contentRef.scrollIntoView({ behavior: 'smooth' });
+							}
+						}}
 					>
 						Get started
 					</a>

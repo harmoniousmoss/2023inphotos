@@ -1,4 +1,25 @@
-<section class="py-20 sm:py-24 lg:py-28 bg-gradient-to-b from-gray-50 to-white">
+<script lang="ts">
+	import { onMount } from 'svelte';
+	import { animate, scroll } from 'motion';
+
+	// Explicitly defining the type of contentRef
+	export let contentRef: HTMLElement | null;
+
+	onMount(() => {
+		const contentSections = document.querySelectorAll('section > div > div');
+		contentSections.forEach((section) => {
+			scroll(animate(section, { opacity: [0, 1, 1, 0] }), {
+				target: section,
+				offset: ['start end', 'end end', 'start start', 'end start']
+			});
+		});
+	});
+</script>
+
+<section
+	bind:this={contentRef}
+	class="py-20 sm:py-24 lg:py-28 bg-gradient-to-b from-gray-50 to-white"
+>
 	<div class="px-4 mx-auto overflow-auto max-w-7xl sm:px-6 lg:px-8">
 		<div class="grid grid-cols-1 gap-8 lg:grid-cols-4">
 			<!-- First Section -->
