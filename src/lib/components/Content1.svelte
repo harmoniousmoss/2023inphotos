@@ -1,19 +1,6 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import { animate, scroll } from 'motion';
-
 	// Explicitly defining the type of contentRef
 	export let contentRef: HTMLElement | null;
-
-	onMount(() => {
-		const contentSections = document.querySelectorAll('section > div > div');
-		contentSections.forEach((section) => {
-			scroll(animate(section, { opacity: [0, 1, 1, 0] }), {
-				target: section,
-				offset: ['start end', 'end end', 'start start', 'end start']
-			});
-		});
-	});
 </script>
 
 <section

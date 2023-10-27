@@ -1,19 +1,6 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import { animate, scroll } from 'motion';
-
 	// Explicitly defining the type of contentRef
 	export let contentRef: HTMLElement | null;
-
-	onMount(() => {
-		const headerSections = document.querySelectorAll('section > div > div');
-		headerSections.forEach((section) => {
-			scroll(animate(section, { opacity: [0, 1, 1, 0] }), {
-				target: section,
-				offset: ['start end', 'end end', 'start start', 'end start']
-			});
-		});
-	});
 </script>
 
 <div>
@@ -48,7 +35,7 @@
 		<div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
 			<div class="mx-auto text-center">
 				<h1
-					class="text-4xl font-semibold text-transparent text-white sm:text-5xl xl:text-7xl sm:tracking-tight bg-clip-text bg-gradient-to-r from-cyan-500 to-amber-400"
+					class="text-5xl font-semibold text-transparent xl:text-7xl sm:tracking-tight bg-clip-text bg-gradient-to-r from-cyan-500 to-amber-400"
 				>
 					Visualised: The proposed state budget for 2024
 				</h1>
