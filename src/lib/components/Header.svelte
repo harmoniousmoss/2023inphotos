@@ -13,7 +13,7 @@
 				<div class="shrink-0">
 					<a href="/" title="" class="">
 						<img
-							class="w-auto h-12"
+							class="w-auto h-14"
 							src="https://newsletter.prospera.or.id/poverty-update/assets/img/logo_prospera.png"
 							alt="Logo Prospera"
 						/>
@@ -83,7 +83,7 @@
 		</div>
 	</header>
 
-	<section class="overflow-hidden bg-gray-900 py-20">
+	<section class="py-20 overflow-hidden bg-gray-900">
 		<div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
 			<div class="mx-auto text-center">
 				<h1 class="text-4xl font-semibold text-white sm:text-5xl xl:text-7xl sm:tracking-tight">
@@ -98,7 +98,7 @@
 					<a
 						href="/"
 						title=""
-						class="inline-flex items-center justify-center px-8 py-2 text-base font-medium text-white transition-all duration-200 bg-cyan-500 border border-transparent rounded-full shadow-sm hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500"
+						class="inline-flex items-center justify-center px-8 py-2 text-base font-medium text-white transition-all duration-200 border border-transparent rounded-full shadow-sm bg-cyan-500 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500"
 						role="button"
 					>
 						Get started
