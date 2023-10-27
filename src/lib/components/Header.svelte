@@ -20,64 +20,15 @@
 					</a>
 				</div>
 
-				<!-- <div class="hidden lg:flex lg:items-center lg:space-x-4 lg:ml-12">
-					<a
-						href="/"
-						title=""
-						class="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-white transition-all duration-200 border border-transparent rounded-full hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-ring-700"
-					>
-						Products
-					</a>
-
-					<a
-						href="/"
-						title=""
-						class="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-white transition-all duration-200 border border-transparent rounded-full hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-ring-700"
-					>
-						Features
-					</a>
-
-					<a
-						href="/"
-						title=""
-						class="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-white transition-all duration-200 border border-transparent rounded-full hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-ring-700"
-					>
-						Pricing
-					</a>
-
-					<a
-						href="/"
-						title=""
-						class="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-white transition-all duration-200 border border-transparent rounded-full hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-ring-700"
-					>
-						Support
-					</a>
-				</div> -->
-
 				<div class="hidden sm:flex sm:items-center sm:justify-end sm:space-x-4 sm:ml-auto">
 					<a
-						href="/"
+						href="https://newsletter.prospera.or.id"
 						title="Newsletter homepage"
-						class="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white transition-all duration-200 border border-white rounded-full hover:bg-white hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white focus:ring-offset-gray-900"
+						class="inline-flex items-center justify-center px-6 py-2 text-base font-medium text-white transition-all duration-200 border border-white rounded-full hover:bg-white hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white focus:ring-offset-gray-900"
 						role="button"
 					>
 						Home
 					</a>
-				</div>
-
-				<div class="flex ml-4 lg:hidden">
-					<button
-						type="button"
-						class="inline-flex items-center p-2.5 text-white duration-200 border border-white rounded-full hover:bg-white hover:text-gray-900 transiton-all focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white focus:ring-offset-gray-900"
-						on:click={toggleMenu}
-					>
-						<span class:hidden={expanded}>
-							<!-- SVG for the hamburger icon -->
-						</span>
-						<span class:hidden={!expanded}>
-							<!-- SVG for the close icon -->
-						</span>
-					</button>
 				</div>
 			</div>
 		</div>
@@ -86,7 +37,9 @@
 	<section class="py-20 overflow-hidden bg-gray-900">
 		<div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
 			<div class="mx-auto text-center">
-				<h1 class="text-4xl font-semibold text-white sm:text-5xl xl:text-7xl sm:tracking-tight">
+				<h1
+					class="text-4xl font-semibold text-transparent text-white sm:text-5xl xl:text-7xl sm:tracking-tight bg-clip-text bg-gradient-to-r from-cyan-500 to-amber-400"
+				>
 					Visualised: The proposed state budget for 2024
 				</h1>
 				<p class="mt-6 text-lg leading-7 text-white lg:leading-8 lg:text-xl">

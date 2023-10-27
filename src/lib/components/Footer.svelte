@@ -131,7 +131,7 @@
 							<li class="flex items-center ml-5 text-sm text-white">
 								Made with 💗 with <a
 									href="https://prosperadev.net/"
-									class="ml-1 text-cyan-500 hover:underline"
+									class="ml-1 text-cyan-500 hover:text-amber-400"
 									target="_blank"
 									rel="noopener noreferrer"
 								>

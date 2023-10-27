@@ -10,7 +10,7 @@
 					<p class="text-4xl font-normal text-white">
 						“The 2024 State Budget is formulated to address present and future challenges, so the
 						2024 State Budget is directed at <span
-							class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-500"
+							class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-amber-400"
 							>accelerating inclusive and sustainable economic transformation</span
 						>.”
 					</p>
