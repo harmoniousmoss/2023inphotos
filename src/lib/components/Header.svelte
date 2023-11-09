@@ -79,6 +79,7 @@
 
 			<div class="relative mt-12 sm:mt-16 lg:mt-20" data-aos="fade-up" data-aos-delay="800">
 				<img class="rounded-xl" src="/discussion_resize.png" alt="Indonesia illustration" />
+				<p class="mt-2 text-sm text-gray-300">Source: AI generated image, DALL·E</p>
 			</div>
 		</div>
 	</section>
