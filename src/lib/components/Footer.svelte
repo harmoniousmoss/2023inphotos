@@ -98,7 +98,7 @@
 							<ul class="mt-6 space-y-4">
 								<li>
 									<a
-										href="/"
+										href="https://prospera.or.id/"
 										title=""
 										class="flex text-base font-normal text-gray-400 transition-all transform hover:text-white duration hover:translate-x-1"
 									>
