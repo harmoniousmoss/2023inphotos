@@ -1,6 +1,6 @@
 <!-- Footer start -->
-<footer class="pt-24 bg-gray-50">
-	<div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+<footer class="pt-10 lg:pt-24 bg-gray-50">
+	<div class="px-10 mx-auto lg:px-24">
 		<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-12 gap-y-12 gap-x-8 xl:gap-x-12">
 			<div class="col-span-2 md:col-span-4 xl:pr-8">
 				<img

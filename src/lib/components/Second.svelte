@@ -1,29 +1,17 @@
-<script lang="ts">
-	import AOS from 'aos';
-	import 'aos/dist/aos.css';
-
-	// Initialize AOS after the component has been mounted
-	import { onMount } from 'svelte';
-
-	onMount(() => {
-		AOS.init();
-	});
-</script>
-
-<section class="pl-24 bg-gray-50 py-28">
-	<div class="flex mx-auto">
-		<div class="w-1/2">
+<section class="px-10 py-10 lg:pl-24 bg-gray-50 lg:py-28">
+	<div class="flex flex-col mx-auto sm:flex-row">
+		<div class="w-full sm:w-1/2">
 			<h2
 				class="max-w-3xl text-2xl font-semibold text-gray-900"
 				data-aos="fade-left"
 				data-aos-delay="900"
 			>
 				Fragmentation has seen the decline of economic relationships between some countries, while
-				creating opportunities for others who a ready to step in to fill the gaps.
+				creating opportunities for others who are ready to step in to fill the gaps.
 			</h2>
 		</div>
 
-		<div class="w-1/2">
+		<div class="w-full mt-10 sm:w-1/2 sm:mt-0">
 			<div data-aos="fade-left" data-aos-delay="1100">
 				<iframe
 					title="Vietnam filled the China-sized gap in US EV battery imports"

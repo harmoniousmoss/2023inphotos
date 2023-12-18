@@ -16,3 +16,7 @@
 	background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
 	z-index: 0; /* Ensure it's below the text but above the image */
 }
+
+html {
+	scroll-behavior: smooth;
+}

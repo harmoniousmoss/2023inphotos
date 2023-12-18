@@ -10,7 +10,7 @@
 	});
 </script>
 
-<section class="px-24 bg-white py-28">
+<section class="px-10 py-10 bg-white lg:px-24 lg:py-28">
 	<div class="mx-auto">
 		<div class="mx-auto">
 			<h2 class="text-2xl font-semibold text-gray-900" data-aos="fade-down" data-aos-delay="1300">

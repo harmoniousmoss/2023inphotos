@@ -10,7 +10,7 @@
 	});
 </script>
 
-<section class="px-24 bg-gray-50 py-28">
+<section class="px-10 py-10 lg:px-24 bg-gray-50 lg:py-28">
 	<div class="mx-auto">
 		<div class="mx-auto">
 			<h2 class="text-2xl font-semibold text-gray-900" data-aos="fade-down" data-aos-delay="1900">
@@ -23,7 +23,7 @@
 		<div
 			class="grid max-w-md grid-cols-1 gap-12 mx-auto mt-8 text-center sm:mt-16 md:mx-0 md:max-w-none lg:mt-16 md:text-left md:grid-cols-2 xl:gap-x-20"
 		>
-			<div data-aos="fade-left" data-aos-delay="300">
+			<div data-aos="fade-left" data-aos-delay="2100">
 				<iframe
 					title="More needs to be done to minimise climate change impacts"
 					aria-label="Interactive line chart"
@@ -52,7 +52,7 @@
 				</script>
 			</div>
 
-			<div data-aos="fade-left" data-aos-delay="2100">
+			<div data-aos="fade-left" data-aos-delay="2300">
 				<iframe
 					title="Rare minerals will be key for energy transition supply chains"
 					aria-label="Map"
