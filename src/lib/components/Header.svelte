@@ -10,7 +10,7 @@
 	});
 </script>
 
-<div class="px-10 overflow-x-hidden bg-gray-50">
+<div class="min-h-screen px-10 overflow-x-hidden bg-gray-50">
 	<section class="relative py-10">
 		<div class="relative mx-auto max-w-7xl">
 			<div class="mx-auto text-center">
@@ -56,7 +56,7 @@
 		</div>
 
 		<div class="mt-10" data-aos="fade-up" data-aos-delay="900">
-			<img class="object-cover object-top" src="/People.png" alt="People" />
+			<img src="/People.png" alt="People" />
 		</div>
 	</section>
 </div>
