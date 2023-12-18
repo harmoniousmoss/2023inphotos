@@ -54,7 +54,7 @@
 </script>
 
 <svelte:head>
-	<title>Visualised: AIFED 2023 takeaways</title>
+	<title>Visualised: The proposed state budget for 2024</title>
 	<meta name="robots" content="noindex" />
 </svelte:head>
 
