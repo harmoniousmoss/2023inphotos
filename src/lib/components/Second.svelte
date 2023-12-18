@@ -2,7 +2,7 @@
 	<div class="flex flex-col mx-auto sm:flex-row">
 		<div class="w-full sm:w-1/2">
 			<h2
-				class="max-w-lg text-2xl font-semibold text-gray-900 lg:max-w-xl xl:max-w-2xl"
+				class="max-w-sm text-2xl font-semibold text-gray-900 md:max-w-md lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl"
 				data-aos="fade-left"
 				data-aos-delay="900"
 			>
