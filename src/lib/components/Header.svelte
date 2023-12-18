@@ -55,7 +55,7 @@
 			</div>
 		</div>
 
-		<div class="mt-10" data-aos="fade-up" data-aos-delay="900">
+		<div class="flex justify-center mt-10" data-aos="fade-up" data-aos-delay="900">
 			<img src="/People.png" alt="People" />
 		</div>
 	</section>
