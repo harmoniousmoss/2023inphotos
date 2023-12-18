@@ -60,7 +60,7 @@
 
 <!-- Progress Bar -->
 <div class="fixed top-0 left-0 z-50 w-full h-1 bg-gray-300">
-	<div id="progressBar" class="h-1 transition-all duration-200 bg-cyan-500" />
+	<div id="progressBar" class="h-1 transition-all duration-200 bg-[#005E7F]" />
 </div>
 
 <!-- Back to Top Button -->
