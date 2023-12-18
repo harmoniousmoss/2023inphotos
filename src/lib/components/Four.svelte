@@ -13,7 +13,7 @@
 <section class="px-24 bg-gray-50 py-28">
 	<div class="mx-auto">
 		<div class="mx-auto">
-			<h2 class="text-2xl font-semibold text-gray-900" data-aos="fade-down">
+			<h2 class="text-2xl font-semibold text-gray-900" data-aos="fade-down" data-aos-delay="1900">
 				Opportunities will arise from the need to respond to climate change as countries
 				increasingly look to transition to renewable energy. Access to key resources (e.g. nickel,
 				of which Indonesia and Australia dominate global reserves) will be significant.
@@ -52,7 +52,7 @@
 				</script>
 			</div>
 
-			<div data-aos="fade-left" data-aos-delay="700">
+			<div data-aos="fade-left" data-aos-delay="2100">
 				<iframe
 					title="Rare minerals will be key for energy transition supply chains"
 					aria-label="Map"
