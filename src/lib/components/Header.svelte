@@ -15,7 +15,7 @@
 		<div class="relative mx-auto max-w-7xl">
 			<div class="mx-auto text-center">
 				<p
-					class="inline-flex px-4 py-2 text-sm text-gray-900 border border-gray-200 rounded-full"
+					class="inline-flex px-4 py-2 text-sm text-gray-900 border border-gray-200 rounded-full 2xl:text-base"
 					data-aos="fade-down"
 				>
 					Prospera Newsletter - 18 December 2023
@@ -28,7 +28,7 @@
 					Visualised: AIFED 2023 takeaways
 				</h1>
 				<p
-					class="mx-auto mt-6 text-lg leading-7 text-gray-00 font-inter"
+					class="mx-auto mt-6 text-lg leading-7 text-gray-900 2xl:text-xl"
 					data-aos="fade-down"
 					data-aos-delay="500"
 				>

@@ -10,12 +10,12 @@
 	});
 </script>
 
-<section class="px-24 bg-gray-50 py-28">
+<section class="pl-24 bg-gray-50 py-28">
 	<div class="flex mx-auto">
 		<div class="w-1/2">
 			<h2
 				class="max-w-3xl text-2xl font-semibold text-gray-900"
-				data-aos="fade-right"
+				data-aos="fade-left"
 				data-aos-delay="900"
 			>
 				Fragmentation has seen the decline of economic relationships between some countries, while
@@ -24,7 +24,7 @@
 		</div>
 
 		<div class="w-1/2">
-			<div data-aos="fade-right" data-aos-delay="1100">
+			<div data-aos="fade-left" data-aos-delay="1100">
 				<iframe
 					title="Vietnam filled the China-sized gap in US EV battery imports"
 					aria-label="Stacked Columns"
