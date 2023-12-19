@@ -30,7 +30,7 @@
 						Prospera Newsletter - 18 December 2023
 					</p>
 					<h1
-						class="font-bold text-transparent text-gray-900 bg-gradient-to-b from-[#005E7F] to-[#1F3235] bg-clip-text my-4 text-7xl 2xl:text-8xl"
+						class="font-bold text-transparent text-gray-900 bg-gradient-to-b from-[#005E7F] to-[#1F3235] bg-clip-text my-4 xl:text-7xl 2xl:text-8xl text-5xl"
 						data-aos="fade-right"
 					>
 						Visualised: AIFED 2023 takeaways
