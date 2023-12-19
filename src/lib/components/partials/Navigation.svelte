@@ -4,7 +4,7 @@
 
 <header class="bg-gray-50">
 	<div class="px-10 pt-5 lg:px-24">
-		<div class="flex items-center justify-between h-16 lg:h-20">
+		<div class="flex items-center justify-between h-14">
 			<div class="flex-shrink-0">
 				<a href="/" title="" class="flex">
 					<img
