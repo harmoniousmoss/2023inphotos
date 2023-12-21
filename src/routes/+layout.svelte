@@ -54,17 +54,8 @@
 </script>
 
 <svelte:head>
-	<title>Joyful Tidings and Bright Beginnings - Merry Christmas & a Happy New Year!</title>
+	<title>2023 in Photos</title>
 	<meta name="robots" content="noindex" />
 </svelte:head>
 
-<!-- Back to Top Button -->
-<button
-	class="fixed bottom-5 right-5 z-50 w-12 h-12 flex items-center justify-center rounded-full bg-cyan-500 text-white focus:outline-none transition-opacity duration-300 hover:bg-amber-400 {showBackToTop
-		? 'opacity-100'
-		: 'opacity-0'}"
-	on:click={scrollToTop}
->
-	↑
-</button>
 <slot />
