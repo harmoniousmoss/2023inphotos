@@ -51,7 +51,7 @@
 				<div class="flex items-center px-6 mt-6 gap-x-6">
 					<a
 						href="/"
-						class="rounded-md bg-cyan-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-900 lg:text-lg"
+						class="rounded-full bg-cyan-500 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-900 lg:text-base"
 						>Download video</a
 					>
 				</div>
