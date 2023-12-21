@@ -2,11 +2,11 @@
 	let menuOpen = false;
 </script>
 
-<header class="bg-gray-50">
-	<div class="px-10 pt-5 lg:px-24">
+<header class="bg-white">
+	<div class="px-6 py-5 lg:px-24">
 		<div class="flex items-center justify-between h-14">
 			<div class="flex-shrink-0">
-				<a href="/" title="" class="flex">
+				<a href="https://prospera.or.id" title="" class="flex">
 					<img
 						class="w-auto h-12"
 						src="https://prospera.or.id/wp-content/uploads/2023/06/Logo-Prospera.png"
@@ -59,7 +59,7 @@
 
 			<div class="hidden ml-auto lg:flex lg:items-center lg:justify-center lg:space-x-10">
 				<a
-					href="https://newsletter.prospera.or.id"
+					href="https://prospera.or.id"
 					title=""
 					class="inline-flex items-center justify-center px-8 py-1 text-base font-semibold text-white bg-gray-900 rounded-full hover:text-white hover:bg-[#005E7F]"
 					role="button"
@@ -74,7 +74,7 @@
 			<div class="w-full">
 				<div class="">
 					<a
-						href="https://newsletter.prospera.or.id"
+						href="https://prospera.or.id"
 						title=""
 						class="block py-3 text-base font-semibold text-center text-gray-900 transition-all duration-200"
 					>
