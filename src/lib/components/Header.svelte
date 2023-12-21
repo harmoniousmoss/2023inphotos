@@ -50,7 +50,8 @@
 				</h1>
 				<div class="flex items-center px-6 mt-6 gap-x-6">
 					<a
-						href="/"
+						href="/Snap.mp4"
+						download
 						class="rounded-full bg-cyan-500 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-900 lg:text-base"
 						>Download video</a
 					>
